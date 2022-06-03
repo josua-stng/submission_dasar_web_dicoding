@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: cyan;
+  position: sticky;
+  top: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2px 0;
+
+}
+
+nav img {
+  width: 70px;
+  border-radius: 2px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  width: 40%;
+  justify-content: space-between;
+}
+nav ul li a {
+  text-decoration: none;
+}
+
+
+.content .container img {
+  width: 180px;
+  border-radius: 7px;
+}
+.article_1 {
+  display: flex;
+  /* background-color: bisque; */
+  padding: 20px;
+  margin-top: 20px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container{
+    text-align: center;
+    line-height: 20px;
+}
+
+.container_1{
+    text-align: center;
+    width:20%;
+}
+
+.contact_item{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+
+.contact_item li{
+    list-style: none;
+}
+
+.contact_item i {
+    font-size: 20px;
+}
+.instagram_item i{
+    color: rgb(247, 119, 55);
+}
+.facebook_item i{
+    color: rgb(66 103 178);
+}
+
+#project{
+    text-align: center;
+    background-color: rgb(246, 163, 8);
+    padding: 20px;
+    margin-top: 100px;
+    padding-bottom: 60px;
+   
+}
+
+#project h1{
+    padding-top: 50px;
+}
+.wrapper{
+    display: flex;
+    margin-top: 70px;
+    text-align: center;
+  
+}
+
+
+.project_1 img{
+    width: 84%;
+    padding: 20px;
+}
+.project_2 img{
+    width: 76%;
+    padding: 20px;
+}
+.project_3 img{
+    width: 75%;
+    padding: 20px;
+}
+
+.project_1 p,.project_2 p,.project_3 p{
+    margin-top: 7px;
+}
+
+.project_1{
+    border: 2px solid white;
+    background-color: white;
+}
+.project_2{
+    border: 2px solid black;
+    background-color: rgb(162, 228, 153);
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.project_3{
+    border: 2px solid red;
+    background-color: rgb(235, 243, 15);
+}
+
+.footer{
+    background-color: rgb(13, 110, 253);
+    height: 20px;
+    margin-top: 100px;
+    text-align: center;
+    padding: 50px;
+}
+
+.paragraph_footer{
+    color: white;
+}
+.footer_copyright i{
+    color: red;
+}
+.paragraph_footer a{
+    color: white;
+    text-decoration: none;
+}
