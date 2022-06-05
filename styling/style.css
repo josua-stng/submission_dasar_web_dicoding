@@ -3,6 +3,7 @@
   padding: 0;
 }
 
+
 header {
   background-color: cyan;
   position: sticky;
@@ -129,12 +130,30 @@ nav ul li a {
     background-color: rgb(235, 243, 15);
 }
 
+.saran_content{
+    margin-top: 60px;
+    text-align: center;
+}
+
+.saran_content textarea{
+    margin-top: 40px;
+}
+
+.btn_saran{
+    margin-top: 20px;
+    height: 40px;
+    width: 100px;
+}
+
 .footer{
     background-color: rgb(13, 110, 253);
     height: 20px;
     margin-top: 100px;
     text-align: center;
     padding: 50px;
+}
+textarea{
+    width: 70vmin;
 }
 
 .paragraph_footer{
@@ -146,4 +165,55 @@ nav ul li a {
 .paragraph_footer a{
     color: white;
     text-decoration: none;
+}
+
+/* Responsive Query */
+
+@media (max-width:800px){
+    .wrapper{
+        display: block;
+        justify-self: center;
+      
+    }
+    .project_1{
+        margin-left: 50px;
+        text-align: center;
+        width: 80vmin;
+        margin-bottom: 40px;
+    }
+    .project_1 p,.project_2 p,.project_3 p {
+        text-align: center;
+        width: 73vmin;
+        margin-left: 20px;
+        
+    }
+    .project_2{
+        margin-left: 50px;
+        width: 80vmin;
+        margin-bottom: 40px;
+    }
+
+    .project_3{
+        margin-left: 50px;
+        width: 80vmin;
+    }
+}
+
+@media (max-width:500px){
+
+    .article_1{
+        display: block;
+    }
+    .container_1{
+        margin-top: 40px;
+        text-align: center;
+        width: 100%;
+        color: red;
+    }
+
+    .wrapper{
+        display: grid;
+        justify-content: center;
+        align-content: center;
+    }
 }
